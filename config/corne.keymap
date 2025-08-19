@@ -15,6 +15,13 @@
         combo_mac_win_swap {
             bindings = <&to 1>;
             key-positions = <37 40 35>;
+            layers = <0>;
+        };
+
+        combo_win_mac_swap {
+            bindings = <&to 0>;
+            key-positions = <37 40 35>;
+            layers = <1>;
         };
     };
 
